@@ -16,3 +16,5 @@ RUN source ~/.nvm/nvm.sh \
   && nvm install $NODE_VERSION \
   $$ nvm alias default $NODE_VERSION \
   && nvm use default
+
+EXPOSE 8443
